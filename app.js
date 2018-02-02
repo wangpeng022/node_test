@@ -5,7 +5,7 @@ var app = express();
 //     res.end("hello")
 // });
 
-app.get("/", (req, res) => {
+app.get("/", function(req, res){
     res.send("hello")
 });
 
