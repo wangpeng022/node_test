@@ -20,6 +20,6 @@ app.get("/", (req, res) => {
 app.use( express.static('public'));
 
 var port = 3000;
-app.listen(port, () => {
+app.listen(port, function() {
     console.log("http://localhost:"+port);
 })
